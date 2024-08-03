@@ -1,0 +1,20 @@
+direction: right
+
+Cloud: soeren.cloud {
+  Region1: eu-central-1 {
+    AZ1: AZ 1
+  }
+
+  Region2: eu-central-2 {
+    AZ1: AZ 1
+    AZ2: AZ 2
+  }
+
+  Region3: eu-west-1 {
+    AZ1: AZ 1
+  }
+}
+
+Cloud.Region1 -- Cloud.Region2: {label: "Wireguard"}
+Cloud.Region1 -- Cloud.Region3: {label: "Wireguard"}
+Cloud.Region2 -- Cloud.Region3: {label: "Wireguard"}

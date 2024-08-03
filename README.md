@@ -239,12 +239,7 @@ A list of AWS services that are used by the hybrid cloud.
 ### Regions
 Thanks again for my family that lets me run my machines across different regions and availability zones. :)
 
-| Region       | Country      | # Zones |
-|--------------|--------------|---------|
-| eu-central-d | DE           | 1       | 
-| eu-central-e | DE           | 2       | 
-| eu-west      | PT           | 1       | 
-
+![regions](diagrams/regions.svg)
 
 ## Hardware Components
 
