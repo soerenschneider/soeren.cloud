@@ -110,6 +110,12 @@ Following a list of purposely built software to help solving problems of the hyb
   - **Key Technologies:** Golang, Vault, REST, code generators
   - **Key Topics:** Secrets management, observability, automation, x509, SSH
 
+
+- **Repository:** [sc](https://github.com/soerenschneider/sc)
+    - **Description:** Command line interface for soeren.cloud, inspired by _aws cli_
+    - **Key Technologies:** Golang, REST
+    - **Key Topics:** Secrets management, observability, automation, x509, SSH
+
 #### Security
 
 - **Repository:** [vault-ssh-cli](https://github.com/soerenschneider/vault-ssh-cli)
